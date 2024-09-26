@@ -1,5 +1,4 @@
 # HNDLR
-Handles your mom ( for now ) 
 
 ### **Project Overview**
 The Interactive Historical Time Travel Simulator allows users to explore historical events, make decisions, and simulate alternate outcomes. It provides educational content about key historical moments while letting users "change" history and see the potential effects of their actions.
