@@ -1,0 +1,74 @@
+/* #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+body {
+    overflow: hidden;
+}
+
+#logo p:not(:first-child) {
+    position: relative;
+    font-family: "High Tide";
+    color: white;
+    text-shadow: 0px 0px 8px white;
+    font-size: 12vh;
+    margin-left: 50px;
+    margin-top: -40px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+#logo p:nth-child(2) {
+    position: absolute;
+    top: 75px;
+    left: 125px;
+}
+
+#logo ~ img {
+    position: relative;
+    z-index: -1;
+    float: left;
+}
+
+#logo:first-child {
+    margin-top: -30px;
+}
+
+.letter {
+    display: inline-block;
+    opacity: 0;
+}
+
+#btn {
+    font-family: "High Tide";
+    font-size: 48px;
+    padding: 30px;
+    color: white;
+    background-color: #1e1d1d;
+    position: fixed;
+    top: 42.5%;
+    left: 42.5%;
+    border-radius: 20px;
+    border: 6px solid white;
+    text-shadow: 0px 0px 10px rgb(255, 255, 207);
+    box-shadow: 0px 0px 20px 5px rgb(255, 255, 207);
+    transition: 0.1s ease-in-out;
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 35px 5px rgb(255, 255, 207);
+    border-width: 8px;
+    top: 42.25%;
+    left: 42.25%;
+}
+
+#btn:active {
+    transition: 0.1s ease-in-out;
+    top: 42%;
+    left: 42%;
+    border: 0;
+    box-shadow: 0px 0px;
+}

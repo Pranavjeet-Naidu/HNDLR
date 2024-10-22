@@ -1,0 +1,25 @@
+body {
+    font-family: "Chakra Petch";
+    background-color: #1e1d1d;
+}
+
+#templ {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px; 
+}
+
+#templ > div {
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 125px;
+    transition: ease-in-out;
+}
+/* #templ > div:hover {
+    transform: translateY(-8px);
+    transition: 0.2s ease-in-out;
+} */
